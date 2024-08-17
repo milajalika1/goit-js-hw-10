@@ -1,0 +1,57 @@
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    width: 346px;
+    margin-left: 156px;
+    text-align: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    height: 72px;
+}
+
+input {
+    margin-left: 156px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    background: #fff;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background: #cfcfcf;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #989898;
+    text-align: center;
+    border-style: none;
+}
+
+
+.value {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}

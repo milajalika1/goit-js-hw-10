@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 360px;
+  margin-left: 156px;
+}
+form input {
+  height: 40px;
+  padding-left: 10px;
+font-weight: 400;
+    font-size: 25px;
+  
+}
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+fieldset {
+  height: 78px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  display: flex;
+  justify-content: space-around;
+}
+.fieldset-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 104px;
+}
+
+fieldset input {
+  width: 22px;
+}
+legend {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  border-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
